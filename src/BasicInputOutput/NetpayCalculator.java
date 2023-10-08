@@ -7,12 +7,10 @@ public class NetpayCalculator {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter your gross salary: ");
-        double grossSalary = scanner.nextDouble();
+        double grossSalary = Double.parseDouble(scanner.nextLine());
 
         System.out.print("Enter the amount of deduction: ");
-        double deduction = scanner.nextDouble();
-
-        scanner.nextLine();
+        double deduction = Double.parseDouble(scanner.nextLine());
 
         System.out.print("Enter your name: ");
         String name = scanner.nextLine().toUpperCase();

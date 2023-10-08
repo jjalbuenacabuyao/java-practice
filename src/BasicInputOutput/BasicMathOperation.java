@@ -7,10 +7,10 @@ public class BasicMathOperation {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter the first number: ");
-        double firstNumber = scanner.nextDouble();
+        double firstNumber = Double.parseDouble(scanner.nextLine());
 
         System.out.print("Enter the second number: ");
-        double secondNumber = scanner.nextDouble();
+        double secondNumber = Double.parseDouble(scanner.nextLine());
 
         double sum = firstNumber + secondNumber;
 

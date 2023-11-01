@@ -7,9 +7,6 @@ public class AverageChecker {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Name: ");
-        String name = scanner.nextLine();
-
         System.out.print("Math: ");
         double mathGrade = Double.parseDouble(scanner.nextLine());
 

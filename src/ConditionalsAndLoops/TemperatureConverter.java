@@ -13,7 +13,7 @@ public class TemperatureConverter {
         System.out.print("Fahrenheit or Celcius (c or f): ");
         String unit = scanner.nextLine().toLowerCase();
 
-        double convertedTemperature = 0;
+        double convertedTemperature;
 
         if (Objects.equals(unit, "c")){
             convertedTemperature = (temperature * 9 / 5) + 32;
